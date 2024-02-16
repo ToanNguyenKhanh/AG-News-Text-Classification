@@ -52,7 +52,7 @@ All the necessary steps for data preparation, preprocessing, and model training 
 
 5. **Evaluation**: If you want to evaluate the performance of the trained models, execute the evaluation cells in the notebook. This will output accuracy and other evaluation metrics.
    
-![Demo Screenshot](demo/screenshot.png)
+![Demo Screenshot](demo/demo1.png)
 
 ## Contributing
 
