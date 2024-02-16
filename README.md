@@ -51,8 +51,13 @@ All the necessary steps for data preparation, preprocessing, and model training 
     - The app will then predict the category of the news article based on the trained model.
 
 5. **Evaluation**: If you want to evaluate the performance of the trained models, execute the evaluation cells in the notebook. This will output accuracy and other evaluation metrics.
+
+6. **Demo** 
    
 ![Demo Screenshot](demo/demo1.png)
+![Demo Screenshot](demo/demo2.png)
+![Demo Screenshot](demo/demo3.png)
+
 
 ## Contributing
 
