@@ -16,23 +16,26 @@ You can download the dataset from [here](https://www.kaggle.com/datasets/amanana
 - Scikit-learn
 - TensorFlow (for deep learning models)
 
+## Models
+
+This repository includes implementations of the following models:
+
+- Multinomial Naive Bayes
+- SGD (Stochastic Gradient Descent)
+- Convolutional Neural Network (CNN)
 
 ## Usage
 
-1. **Data Preparation**: Download the AG News dataset and place it in the `data` directory. If you're using a different dataset, make sure it follows the same format or preprocess accordingly.
+All the necessary steps for data preparation, preprocessing, and model training are contained within the Jupyter Notebook provided.
 
-2. **Preprocessing**: Preprocess the dataset by running the preprocessing script:
+1. **Data Preparation**: Download the AG News dataset and place it in the `data` directory within the same directory as the notebook. If you're using a different dataset, make sure it follows the same format or preprocess accordingly.
 
-    ```
-    python preprocess.py
-    ```
+2. **Preprocessing**: Execute the preprocessing cells in the notebook. These cells will tokenize the text, remove stopwords, and convert the labels into numerical format.
 
-    This script will tokenize the text, remove stopwords, and convert the labels into numerical format.
+3. **Model Training (Optional)**: If you want to train your own models, execute the training cells in the notebook. You can use the provided scripts or your custom implementations to train the models.
 
-3. **Model Training (Optional)**: If you want to train your own models, you can follow these steps. Otherwise, skip to step 4.
-
-    - Train the models using the provided scripts or your custom implementations.
-
+    - Ensure that you have the necessary dependencies installed in your Jupyter environment.
+    
 4. **Prediction App**: Use the provided prediction app to classify news articles. Here's how to run the app:
 
     - Ensure that you have the necessary dependencies installed.
@@ -40,21 +43,15 @@ You can download the dataset from [here](https://www.kaggle.com/datasets/amanana
     - Run the prediction app using the following command:
     
         ```
-        python predict_app.py
+        python app.py
         ```
         
     - The app will prompt you to input the text of a news article. Enter the text and press enter.
     
     - The app will then predict the category of the news article based on the trained model.
-    
 
-## Models
+5. **Evaluation**: If you want to evaluate the performance of the trained models, execute the evaluation cells in the notebook. This will output accuracy and other evaluation metrics.
 
-This repository includes implementations of the following models:
-
-- Multinomial Naive Bayes
-- SGD (Stochastic Gradient Descent)
-- Convolutional Neural Network (CNN
 
 ## Contributing
 
