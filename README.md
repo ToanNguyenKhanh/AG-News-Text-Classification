@@ -23,11 +23,30 @@ You can download the dataset from [here](https://www.kaggle.com/datasets/amanana
 
 2. **Preprocessing**: Preprocess the dataset by running the preprocessing script:
 
+    ```
+    python preprocess.py
+    ```
+
     This script will tokenize the text, remove stopwords, and convert the labels into numerical format.
 
-3. **Training**: Train the models using the notebook
+3. **Model Training (Optional)**: If you want to train your own models, you can follow these steps. Otherwise, skip to step 4.
 
-4. **Evaluation**: Evaluate the trained models on the test set 
+    - Train the models using the provided scripts or your custom implementations.
+
+4. **Prediction App**: Use the provided prediction app to classify news articles. Here's how to run the app:
+
+    - Ensure that you have the necessary dependencies installed.
+    
+    - Run the prediction app using the following command:
+    
+        ```
+        python predict_app.py
+        ```
+        
+    - The app will prompt you to input the text of a news article. Enter the text and press enter.
+    
+    - The app will then predict the category of the news article based on the trained model.
+    
 
 ## Models
 
