@@ -1,7 +1,10 @@
 # AG News Text Classification
 
 This repository contains code for text classification on the AG News dataset using various machine learning and deep learning techniques. The AG News dataset is a collection of news articles categorized into four classes: World, Sports, Business, and Science/Technology.
+
 ![Demo video](demo/app_demo.gif)
+
+<p align="center"><em>Result</em></p>
 ## Dataset
 
 The AG News dataset consists of 120,000 training samples and 7,600 test samples, evenly distributed among the four classes. Each sample is a short news article accompanied by a title.
